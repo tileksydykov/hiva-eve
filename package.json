@@ -1,0 +1,35 @@
+{
+  "name": "hiva-irbis-demo",
+  "version": "1.0.0",
+  "description": "demo",
+  "private": true,
+  "homepage": "https://github.com/pteacher/hiva-irbis-demo#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pteacher/hiva-irbis-demo.git"
+  },
+  "keywords": [
+    "threejs",
+    "hiva"
+  ],
+  "author": "Ruslan Isaev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pteacher/hiva-irbis-demo/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.0",
+    "lodash": "^4.17.21",
+    "three": "^0.129.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
